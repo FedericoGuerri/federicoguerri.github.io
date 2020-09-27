@@ -14,12 +14,11 @@ $(document).ready(function() {
 });
 
 // About Link going to about picture with supporting paragraphs
-
 $(document).ready(function() {
   $('.about').click(function() {
     $('html, body').animate({
       scrollTop: $('.about-me').offset().top
-    }, 1200);
+    }, 700);
   });
 });
 
@@ -28,7 +27,7 @@ $(document).ready(function() {
   $('.projects').click(function() {
     $('html, body').animate({
       scrollTop: $("#projects").offset().top
-    }, 1200);
+    }, 500);
   });
 });
 
@@ -37,7 +36,7 @@ $(document).ready(function() {
   $('.contact-nav').click(function() {
     $('html, body').animate({
       scrollTop: $('.contact').offset().top
-    }, 1200);
+    }, 750);
   });
 });
 
@@ -46,7 +45,7 @@ $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
       scrollTop: $('.flex').offset().top
-    }, 1200);
+    }, 500);
   });
 });
 
@@ -58,13 +57,6 @@ $(document).ready(function() {
 
 // Figure animations
 $(document).ready(function() {
-  // $('#one').on({
-  //   mouseenter: function() {
-  //     $('#img1').css("height", "75px")
-  //     $('#img1').css("opacity", "1")
-  //   }
-  // });
-
   $('#one, #two, #three, #four, #five, #six, #seven').on({
     mouseleave: function() {
       $('figcaption').css("height", "0px")
@@ -77,16 +69,16 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('figure').hover(
     function() {
-      $(this).css("z-index", "200")
-			$(this).css("transform", "scale(1.14)")
-			$('figure').css("-webkit-filter", "grayscale(100%)")
+      $(this).css("z-index", "80")
+      //$('figure').css("transform", "scale(0.9)")
+			$(this).css("transform", "scale(1.15)")
+			//$('figure').css("-webkit-filter", "grayscale(100%)")
 			$(this).css("-webkit-filter", "grayscale(0%)")
     },
     function() {
       $(this).css("z-index", "2")
-			$(this).css("transform", "scale(1.0)")
 			$('figure').css("-webkit-filter", "grayscale(0%)")
-			$(this).css("-webkit-filter", "grayscale(0%)")
+      $('figure').css("transform", "scale(1.0)")
     }
   )
 });
@@ -101,9 +93,6 @@ $(document).ready(function() {
     }
   });
 });
-
-
-
 
 
 
