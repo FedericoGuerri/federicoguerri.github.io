@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #616469;
+  color: #4a4d52;
 }
 
 .mobile-nav {
@@ -260,14 +260,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #616469;
+  color: #4a4d52;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5777ba;
+  color: #616469;
   text-decoration: none;
 }
 
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(35, 51, 85, 0.7);
+  background: #616469;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #54575c;
+  background-color: #616469;
   transform: skewY(135deg);
 }
 
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
-  color: #54575c;
+  color: #4a4d52;
   font-family: "Poppins", sans-serif;
 }
 
