@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   background: #54575c;
   color: #fff;
-  transition: display 0.5s ease-in-out;
+  transition: display 0.3s ease-in-out;
   z-index: 99999;
 }
 
@@ -58,9 +58,9 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
-  transition: all 0.5s;
+  transition: all 0.3s;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.98);
 }
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   background: none;
   font-size: 24px;
-  transition: all 0.4s;
+  transition: all 0.3s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 200%;
   z-index: -1;
   background-color: #616469;
-  transform: skewY(135deg);
+  transform: skewY(145deg);
 }
 
 #hero h1 {
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 8px 24px 10px 46px;
   border-radius: 3px;
-  transition: 0.5s;
+  transition: 0.3s;
   color: #fff;
   background: #54575c;
   position: relative;
@@ -905,7 +905,7 @@ section {
 
 #footer .footer-top .footer-links ul a {
   color: #54575c;
-  transition: 0.3s;
+  transition: 0.2s;
   display: inline-block;
   line-height: 1;
 }
