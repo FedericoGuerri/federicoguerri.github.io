@@ -898,6 +898,13 @@ section {
   color: #4a4d52;
 }
 
+#footer .piva {
+  text-align: center;
+  float: center;
+  color: #4a4d52;
+}
+
+
 #footer .credits {
   float: right;
   text-align: center;
