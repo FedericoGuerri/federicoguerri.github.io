@@ -892,29 +892,22 @@ section {
   text-decoration: none;
 }
 
-#footer .copyright {
-  text-align: center;
-  float: left;
-  color: #4a4d52;
-}
-
 #footer .piva {
   text-align: center;
-  float: center;
+  float: right;
   color: #4a4d52;
 }
 
 
-#footer .credits {
-  float: right;
+#footer .copyright {
+  float: left;
   text-align: center;
-  font-size: 13px;
   color: #4a4d52;
 }
 
 @media (max-width: 768px) {
-  #footer .copyright, #footer .credits {
-    float: none;
+  #footer .copyright, #footer .piva{
+    float: center;
     text-align: center;
     padding: 5px 0;
   }
